@@ -11,15 +11,16 @@ import { useState } from "react"
 const Faculties = () => {
 
     const customStyles = {
-        content: {
-          top: '50%',
-          left: '50%',
-          right: 'auto',
-          bottom: 'auto',
-          width:'80%',
-          marginRight: '-50%',
-          transform: 'translate(-50%, -50%)',
-          border: "none"
+            content: {
+            top: '50%',
+            left: '50%',
+            right: 'auto',
+            bottom: 'auto',
+            width:'80%',
+            marginRight: '-50%',
+            transform: 'translate(-50%, -50%)',
+            border: "none",
+            backgroundColor: "#000000"
         },
       };
 
