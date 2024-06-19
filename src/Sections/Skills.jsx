@@ -12,10 +12,13 @@ const Skills = () => {
     var settings = {
         dots: false,
         infinite: true,
-        speed: 500,
         slidesToShow: 6,
         slidesToScroll: 1,
         arrows: true,
+        autoplay: true,
+        speed: 5000,
+        autoplaySpeed: 0,
+        cssEase: "linear",
         nextArrow: <MdOutlineKeyboardDoubleArrowRight />,
         prevArrow: <MdOutlineKeyboardDoubleArrowLeft />,
         responsive: [

@@ -12,7 +12,7 @@ const Ramaiah = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-3 items-center">
                     <div>
-                    <div className="relative">
+                    <div className="relative mb-2 md:mb-0">
                         <div className="w-full h-full bg-orange absolute rounded-lg -right-3 -bottom-3"></div>
                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/-gbb5yr8s6Q?si=ZDPDHaqoejMcn8sQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className="z-1 relative" allowfullscreen></iframe>
                     </div>

@@ -2,7 +2,6 @@ import { PiStarFourFill } from "react-icons/pi";
 import Button from "../Components/Button";
 import kpmg from "../assets/img/kpmg.png";
 import checkbox from "../assets/img/checkbox.png"
-import BannerForm from "../Components/BannerForm";
 
 const Banner = () => {
     return (
@@ -16,21 +15,21 @@ const Banner = () => {
                         </div>
                        
                         <h2 className="text-2xl md:text-[25px] lg:text-[45px] mb-5 text-navy max-w-[700px] md:leading-[38px] lg:leading-[60px] leading-[1.25]">
-                            Unlock digital excellence with our <span className="font-bold text-orange">Post Graduate Program</span> in <span className="font-bold text-orange">Business Analytics</span>.
+                        Make the Right Business Decisions with our 1-Year <span className="font-bold text-orange">Post Graduate Program</span> in <span className="font-bold text-orange">Business Analytics</span>.
                         </h2>
 
                         <ul className="mb-5">
                             <li className="flex items-center gap-2 text-base md:text-md lg:text-lg mb-1 text-navy font-flama">
                                 <img src={checkbox} alt="checkmark" className="max-w-[15px]"/>
-                                <span>Our top recruiters are <span className="text-orange font-bold">TCS, ICICI Bank, PwC, L&T,</span> etc</span>.
+                                <span>Designed keeping in mind needs of working professionals</span>.
                             </li>
                             <li className="flex items-center gap-2 text-base md:text-md lg:text-lg mb-1 text-navy font-flama">
                                 <img src={checkbox} alt="checkmark" className="max-w-[15px]"/>   
-                                <span>Best <span className="text-orange font-bold">100 Business schools</span> in India by several ranking partners.</span>
+                                <span>On-campus Classes during weekend</span>
                             </li>
                             <li className="flex items-center gap-2 text-base md:text-md lg:text-lg text-navy font-flama">
                                 <img src={checkbox} alt="checkmark" className="max-w-[15px]"/>   
-                                <span>We have an average of <span className="text-orange font-bold">96%</span> Placement Percentage.</span>
+                                <span>Taught by Experts from KPMG India</span>
                             </li>
                         </ul>
 
@@ -46,7 +45,9 @@ const Banner = () => {
                         </div>
                     </div>
                     <div className="md:col-span-2 mt-7 sm:mt-0">
-                        <BannerForm/>
+                        <iframe aria-label='Registration Form' style={{ width: '100%', height:'350px', border: '2px solid #ccc', borderRadius: '8px' }} frameBorder="0" src='https://forms.zohopublic.in/bedept/form/RegistrationForm2/formperma/7Xg1fSzA2UztlQegOewLLsNIc4LY9D0RT-HYk1SxRXY'>      
+                        </iframe>
+                       {/* <BannerForm/> */}
                     </div>
                 </div>
             </div>

@@ -38,7 +38,7 @@ const Faculties = () => {
 
     const facultyInfo = [
         {
-            "name": "Rajnish Virmani",
+            "name": "Lijin",
             "img": rajnish_virmani,
             "title": "Senior Consultant, KPMG in India",
             "shortDesc": "Lijin holds a postgraduate qualification in marketing with 11 years of extensive work experience. With significant contributions  to notable projects at RBS, RCMAS, Christ, and MIT,",
@@ -48,31 +48,36 @@ const Faculties = () => {
             "name": "Bharat Sharma",
             "img": bharat,
             "title": "Consultant, KPMG in India",
-            "shortDesc": "Bharat holds a degree in Physics (H) along with Lean Six Sigma Green Belt certification. With a years of experience in Six Sigma Consulting and analytics automation, Bharat"
+            "shortDesc": "Bharat holds a degree in Physics (H) along with Lean Six Sigma Green Belt certification. With a years of experience in Six Sigma Consulting and analytics automation, Bharat",
+            "desc": "Bharat is a Physics (H) graduate and Lean Six Sigma Green Belt certified professional. With expertise in Six Sigma consulting and analytics automation, Bharat has led process optimization projects at EIL and implemented analytics capability chains at GATI using Python. He also teaches courses in Data Visualization, Machine Learning, and HR Analytics, oering training programs that bring a global perspective from his experience in India and Bahrain (GCC). Elevate your skills with Bharat's courses."
         },
         {
             "name": "Varsha Pai K.",
             "img": varsha,
             "title": "Senior Consultant, KPMG in India",
-            "shortDesc": "Lijin Varsha brings nine years of experience in training and operatin, specializing in E-Learning and Training-Project Management. With a BE in Information Science and CSM certification, Varsha excels in."
+            "shortDesc": "Varsha brings nine years of experience in training and operatin, specializing in E-Learning and Training-Project Management. With a BE in Information Science and CSM certification, Varsha excels in.",
+            "desc" : "Varsha has nine years of experience in training & operations, specializing in E-Learning and Training-Project Management. She holds a BE in Information Science and CSM certification, excelling in Data Visualization, Excel Modeling, and Strategy Analysis. Varsha's expertise includes designing and implementing engaging training programs, applying Adult Learning Theory, and ensuring effective learning experiences."
         },
         {
             "name": "Pranab H. Das",
             "img": pranab,
             "title": "Consultant, KPMG in India",
-            "shortDesc": "Pranab holds a B.Tech and MBA qualification 3.5 years of experience. He has contributed to marquee projects at MDI Gurgaon, IIFT Delhi, and Christ University. Pranab"
+            "shortDesc": "Pranab holds a B.Tech and MBA qualification 3.5 years of experience. He has contributed to marquee projects at MDI Gurgaon, IIFT Delhi, and Christ University. Pranab",
+            "desc" : "Pranab is a Btech and MBA graduate with 3.5 years of experience, contributing to projects at MDI Gurgaon, IIFT Delhi, and Christ University. With extensive teaching and consulting experience across PAN India, including cities like Bangalore, Kolkata, Noida, Kochi, Delhi, and Gurgaon, Pranab teaches courses like AIML, BIGDATA, Python, ML, Advanced Excel, Database Management, and Data Visualization. "
         },
         {
             "name": "Kaushik Swaroop",
             "img": kaushwik,
             "title": "Consultant, KPMG in India",
-            "shortDesc": "Kaushik holds a B.E. in Electrical and Electronics Engineering and a PGDM in Business Analytics and Finance. With 3.5 years of experience, he has led projects at top"
+            "shortDesc": "Kaushik holds a B.E. in Electrical and Electronics Engineering and a PGDM in Business Analytics and Finance. With 3.5 years of experience, he has led projects at top",
+            "desc" : "Kaushik is a highly skilled professional with a B.E in Electrical and Electronics Engineering and a PGDM in Business Analytics and Finance. With 3.5 years of experience, he has led projects at prestigious institutions such as IIM Rohtak, BITS Pilani, IIM Kashipur, IIFT Delhi, Christ University, and KPMG UK. He teaches courses like Artificial Intelligence & Financial Modelling, having taught across India, as well as internationally in the Netherlands & the UK."
         },
         {
             "name": "Dr. Aravinda Reddy M.N",
             "img": aravinda,
             "title": "Associate Professor at Ramaiah Institute of Management",
-            "shortDesc": "Dr. Aravinda Reddy M N is an Associate Professor and HOD - Business Analytics and Data Science at Ramaiah Institute of Management, Bangalore. He has completed Read more."
+            "shortDesc": "Dr. Aravinda Reddy M N is an Associate Professor and HOD - Business Analytics and Data Science at Ramaiah Institute of Management, Bangalore. He has completed Read more.",
+            "desc" : "With over 22 years in academia and qualifications like MBA, MSc, MPhil, Dr Reddy is a seasoned professor of Business Analytics & Data Science.He holds a PhD in 'E-Business and its Impact on Retail Sector Area,' recognized as a 'Distinguished Thesis' at an international conference. His research focuses on Business Analytics and Data Science, with applications spanning Management Information Systems, E-Commerce, and Mobile Commerce. Dr. Reddy has published in top international journals and presented at prestigious conferences. Dr. Reddy teaches courses like Management Information Systems, Business Analytics, & Artificial Intelligence, "
         }
     ]
 
@@ -121,7 +126,7 @@ const Faculties = () => {
                                                     <span className="text-[14px] mb-2 inline-block font-flama">
                                                         {selectedFaculty ? selectedFaculty.title : ""}
                                                     </span>
-                                                    <p>{selectedFaculty ? selectedFaculty.shortDesc : ""}</p>
+                                                    <p>{selectedFaculty ? selectedFaculty.desc : ""}</p>
                                                 </div>
                                             </div>
                                         </div>

@@ -16,9 +16,6 @@ const Curriculum = () => {
     return (
         <section className="bg-[#FAFAFA] md:py-[70px] py-[50px]" id="course">
             <div className="container mx-auto px-3 md:px-10">
-                <div className="mb-[50px]">
-                    <Title name="Course" colored="Curriculum"/>
-                </div>
 
                 <div className="mt-6 curriculum-section">
                     <Tabs>
